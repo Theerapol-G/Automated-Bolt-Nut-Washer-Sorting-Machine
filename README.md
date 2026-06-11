@@ -139,16 +139,16 @@ The machine went through **6 design versions** before reaching the final build, 
 
 ## Team Member
 
-Chanaprachpakorn Ngernmo
-Theerapol Guanmuangtai
-Thanakrit Wongkha
-Warut Tongrung
-Norawich Lorttrakanont
-Kunasin Laysak
-Danuphat Parnpradit
-Thanakon Chaichana
-Jerich Brylle Sison
-Sajakorn Chutikarnmongkol
+* Chanaprachpakorn Ngernmo
+* Theerapol Guanmuangtai
+* Thanakrit Wongkha
+* Warut Tongrung
+* Norawich Lorttrakanont
+* Kunasin Laysak
+* Danuphat Parnpradit
+* Thanakon Chaichana
+* Jerich Brylle Sison
+* Sajakorn Chutikarnmongkol
 
 **##** Institution
 
