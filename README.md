@@ -3,6 +3,8 @@
 > A mechatronics project by students of \*\*Kasetsart University Sriracha Campus\*\*  
 > Industrial Engineering Program
 
+![NBN](Media/NBN.gif)
+
 ## Project Overview
 
 NBN Sorter is an automated mechanical sorting machine designed to separate mixed hardware fasteners — **bolts, nuts, and washers** — by type and size (M3, M4, M5) without human intervention.
@@ -156,4 +158,4 @@ The machine went through **6 design versions** before reaching the final build, 
 Industrial Engineering Program
 
 *This project was developed as part of an academic engineering design course.*
-
+* **Full Demonstration Video**: 🔗 **[Watch on YouTube](https://youtu.be/BTTlB-tEGTM?si=GIfPtlQIp4Oagcnz)**
