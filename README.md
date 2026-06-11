@@ -1,15 +1,9 @@
-\# NBN Sorter - Automated Bolt, Nut \& Washer Sorting Machine
+# NBN Sorter - Automated Bolt, Nut \& Washer Sorting Machine
 
 > A mechatronics project by students of \*\*Kasetsart University Sriracha Campus\*\*  
 > Industrial Engineering Program
 
-
-
-
-
-
-
-\## Project Overview
+## Project Overview
 
 NBN Sorter is an automated mechanical sorting machine designed to separate mixed hardware fasteners — **bolts, nuts, and washers** — by type and size (M3, M4, M5) without human intervention.
 
@@ -18,40 +12,22 @@ The system uses a combination of gravity-based rail sorting, magnetic conveyance
 **Input:** Mixed bolts (M3/M4/M5), nuts, and washers poured into the input hopper  
 **Output:** Sorted fasteners separated into individual collection bins by size and type
 
+![Overview](Media/Overview.png)
 
-
-!\[Overview](Media/Overview.png)
-
-
-
-\## System Architecture 
+## System Architecture 
 
 The machine consists of **4 stations** connected in sequence, plus a display/wiring unit:
 
-
-
-!\[Workflow](Media/Working\_Process.png)
-
+![Workflow](Media/Working_Process.png)
 
 ## Station Details
+## Station 1 - Rail Sorter
 
+![Station 1-1](Media/Station1_I.png)
 
+![Station 1-2](Media/Station1_II.png)
 
-\## Station 1 - Rail Sorter
-
-
-
-!\[Station 1-1](Media/Station1\_I.png)
-
-
-
-!\[Station 1-2](Media/Station1\_II.png)
-
-
-
-!\[Station 1-3](Media/Station1\_III.png)
-
-
+![Station 1-3](Media/Station1_III.png)
 
 * Mixed fasteners are poured at the top-right input hopper
 * Gravity guides bolts along one path to Station 2
@@ -65,15 +41,9 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 
 **Accuracy: 85%** (255/300 over 10 test runs)
 
+## Station 2 - Pink Box (Bolt Feeder)
 
-
-\## Station 2 - Pink Box (Bolt Feeder)
-
-
-
-!\[Station 2-1](Media/Station2\_I.png)
-
-
+![Station 2-1](Media/Station2_I.png)
 
 * Receives bolts from Station 1
 * Internal rotating disk with **hidden magnetic buttons** picks up bolts individually
@@ -83,23 +53,13 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 
 **Accuracy: 39%** (39/100 over 10 test runs) — *lowest performing station; main bottleneck*
 
+## Station 3 - Rotating Plate (Nut Sorter)
 
+![Station 3-1](Media/Station3_I.png)
 
-\## Station 3 - Rotating Plate (Nut Sorter)
+![Station 3-2](Media/Station3_II.png)
 
-
-
-!\[Station 3-1](Media/Station3\_I.png)
-
-
-
-!\[Station 3-2](Media/Station3\_II.png)
-
-
-
-!\[Station 3-3](Media/Station3\_III.png)
-
-
+![Station 3-3](Media/Station3_III.png)
 
 * Receives nuts from Station 1
 * A rotating disk with a fixed semi-circle plate directs nuts into size-based curve paths
@@ -113,15 +73,9 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 
 **Accuracy: 97.6%** (117/120 over 10 test runs) — *best performing station*
 
+## Station 4 - Magnetic Conveyor (Bolt Sorter)
 
-
-\## Station 4 - Magnetic Conveyor (Bolt Sorter)
-
-
-
-!\[Station 4-1](Media/Station4\_I.png)
-
-
+![Station 4-1](Media/Station4_I.png)
 
 * Receives bolts from Station 2
 * Bolts attach to magnets embedded in the conveyor rail surface
@@ -133,9 +87,8 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 
 **Accuracy: 64%** (64/100 over 10 test runs)
 
-\---
 
-\## Display \& Wiring — NBN Dashboard
+## Display \& Wiring — NBN Dashboard
 
 * Built on **ESP32** with **TFT eSPI** display
 * GUI rendered using **LVGL** library
@@ -143,11 +96,7 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 * Serial communication with sensors via **circular buffer**
 * Dynamic label updates via `updateUI()` function based on `sensorOut\[]` array
 
-
-
-\## Overall Results
-
-
+## Overall Results
 
 |Station|Component|Accuracy|
 |-|-|-|
@@ -159,9 +108,7 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 
 ### 
 
-\## End-to-End Test Summary (3 runs)
-
-
+## End-to-End Test Summary (3 runs)
 
 |Size|Bolt|Nut|Washer|
 |-|-|-|-|
@@ -173,9 +120,7 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 
 > Overall system accuracy: \*\*40.95%\*\*
 
-
-
-\## Known Issues
+## Known Issues
 
 * **Station 2 (Pink Box)** is the primary bottleneck — magnetic clumping causes multiple bolts to jam together
 * **Washer sensor** reads 0% — washers could not be detected reliably in the dashboard
@@ -183,9 +128,7 @@ The machine consists of **4 stations** connected in sequence, plus a display/wir
 * PLA deformation requires manual filing with vernier caliper to maintain tolerances
 * End-to-end accuracy is limited by inter-station transfer reliability
 
-
-
-\## Design Iterations
+## Design Iterations
 
 The machine went through **6 design versions** before reaching the final build, iterating on:
 
@@ -194,40 +137,23 @@ The machine went through **6 design versions** before reaching the final build, 
 * Conveyor belt material (metal wire → PLA linkage)
 * Sorting gap dimensions (empirically tested)
 
-
-
-\## Team Member
-
-
+## Team Member
 
 Chanaprachpakorn Ngernmo
-
 Theerapol Guanmuangtai
-
 Thanakrit Wongkha
-
 Warut Tongrung
-
 Norawich Lorttrakanont
-
 Kunasin Laysak
-
 Danuphat Parnpradit
-
 Thanakon Chaichana
-
 Jerich Brylle Sison
-
 Sajakorn Chutikarnmongkol
-
-
 
 **##** Institution
 
 **Kasetsart University Sriracha Campus**  
 Industrial Engineering Program
-
-
 
 *This project was developed as part of an academic engineering design course.*
 
