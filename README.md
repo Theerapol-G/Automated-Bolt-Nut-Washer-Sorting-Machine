@@ -158,4 +158,4 @@ The machine went through **6 design versions** before reaching the final build, 
 Industrial Engineering Program
 
 *This project was developed as part of an academic engineering design course.*
-* **Full Demonstration Video**: 🔗 **[Watch on YouTube](https://youtu.be/BTTlB-tEGTM?si=GIfPtlQIp4Oagcnz)**
+**Full Demonstration Video**: 🔗 **[Watch on YouTube](https://youtu.be/BTTlB-tEGTM?si=GIfPtlQIp4Oagcnz)**
