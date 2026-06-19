@@ -152,7 +152,7 @@ The machine went through **6 design versions** before reaching the final build, 
 * Jerich Brylle Sison
 * Sajakorn Chutikarnmongkol
 
-**##** Institution
+## Institution
 
 **Kasetsart University Sriracha Campus**  
 Industrial Engineering Program
