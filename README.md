@@ -1,5 +1,7 @@
 # NBN Sorter - Automated Bolt, Nut \& Washer Sorting Machine
 
+![Design](https://img.shields.io/badge/Design-Solidworks-red.svg)
+
 > A mechatronics project by students of \*\*Kasetsart University Sriracha Campus\*\*  
 > Industrial Engineering Program
 
